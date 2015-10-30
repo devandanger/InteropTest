@@ -15,19 +15,6 @@
 		20C47DDF1BE2F35C002365F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C47DDD1BE2F35C002365F2 /* LaunchScreen.storyboard */; };
 		20C47DEA1BE2F35C002365F2 /* InteropTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C47DE91BE2F35C002365F2 /* InteropTestTests.m */; };
 		20C47DF51BE2F35C002365F2 /* InteropTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C47DF41BE2F35C002365F2 /* InteropTestUITests.m */; };
-		20C47E171BE2F6DD002365F2 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E061BE2F6DD002365F2 /* Endpoint.swift */; };
-		20C47E181BE2F6DD002365F2 /* Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E071BE2F6DD002365F2 /* Moya.swift */; };
-		20C47E191BE2F6DD002365F2 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E081BE2F6DD002365F2 /* Plugin.swift */; };
-		20C47E1A1BE2F6DD002365F2 /* CredentialsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E0A1BE2F6DD002365F2 /* CredentialsPlugin.swift */; };
-		20C47E1B1BE2F6DD002365F2 /* NetworkActivityPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E0B1BE2F6DD002365F2 /* NetworkActivityPlugin.swift */; };
-		20C47E1C1BE2F6DD002365F2 /* NetworkLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E0C1BE2F6DD002365F2 /* NetworkLoggerPlugin.swift */; };
-		20C47E1D1BE2F6DD002365F2 /* Moya+ReactiveCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E0E1BE2F6DD002365F2 /* Moya+ReactiveCocoa.swift */; };
-		20C47E1E1BE2F6DD002365F2 /* RACSignal+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E0F1BE2F6DD002365F2 /* RACSignal+Moya.swift */; };
-		20C47E1F1BE2F6DD002365F2 /* SignalProducer+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E101BE2F6DD002365F2 /* SignalProducer+Moya.swift */; };
-		20C47E201BE2F6DD002365F2 /* MoyaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E121BE2F6DD002365F2 /* MoyaError.swift */; };
-		20C47E211BE2F6DD002365F2 /* MoyaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E131BE2F6DD002365F2 /* MoyaResponse.swift */; };
-		20C47E221BE2F6DD002365F2 /* Moya+RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E151BE2F6DD002365F2 /* Moya+RxSwift.swift */; };
-		20C47E231BE2F6DD002365F2 /* Observable+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E161BE2F6DD002365F2 /* Observable+Moya.swift */; };
 		20C47E351BE2F762002365F2 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E261BE2F762002365F2 /* Alamofire.swift */; };
 		20C47E361BE2F762002365F2 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E271BE2F762002365F2 /* Download.swift */; };
 		20C47E371BE2F762002365F2 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C47E281BE2F762002365F2 /* Error.swift */; };
@@ -80,19 +67,6 @@
 		20C47DF01BE2F35C002365F2 /* InteropTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteropTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C47DF41BE2F35C002365F2 /* InteropTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteropTestUITests.m; sourceTree = "<group>"; };
 		20C47DF61BE2F35C002365F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C47E061BE2F6DD002365F2 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
-		20C47E071BE2F6DD002365F2 /* Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moya.swift; sourceTree = "<group>"; };
-		20C47E081BE2F6DD002365F2 /* Plugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
-		20C47E0A1BE2F6DD002365F2 /* CredentialsPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialsPlugin.swift; sourceTree = "<group>"; };
-		20C47E0B1BE2F6DD002365F2 /* NetworkActivityPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityPlugin.swift; sourceTree = "<group>"; };
-		20C47E0C1BE2F6DD002365F2 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
-		20C47E0E1BE2F6DD002365F2 /* Moya+ReactiveCocoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Moya+ReactiveCocoa.swift"; sourceTree = "<group>"; };
-		20C47E0F1BE2F6DD002365F2 /* RACSignal+Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RACSignal+Moya.swift"; sourceTree = "<group>"; };
-		20C47E101BE2F6DD002365F2 /* SignalProducer+Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProducer+Moya.swift"; sourceTree = "<group>"; };
-		20C47E121BE2F6DD002365F2 /* MoyaError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaError.swift; sourceTree = "<group>"; };
-		20C47E131BE2F6DD002365F2 /* MoyaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaResponse.swift; sourceTree = "<group>"; };
-		20C47E151BE2F6DD002365F2 /* Moya+RxSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Moya+RxSwift.swift"; sourceTree = "<group>"; };
-		20C47E161BE2F6DD002365F2 /* Observable+Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Moya.swift"; sourceTree = "<group>"; };
 		20C47E251BE2F762002365F2 /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
 		20C47E261BE2F762002365F2 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		20C47E271BE2F762002365F2 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
@@ -209,61 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				20C47E241BE2F762002365F2 /* Alamofire */,
-				20C47E051BE2F6DD002365F2 /* Moya */,
 			);
 			path = Libraries;
-			sourceTree = "<group>";
-		};
-		20C47E051BE2F6DD002365F2 /* Moya */ = {
-			isa = PBXGroup;
-			children = (
-				20C47E061BE2F6DD002365F2 /* Endpoint.swift */,
-				20C47E071BE2F6DD002365F2 /* Moya.swift */,
-				20C47E081BE2F6DD002365F2 /* Plugin.swift */,
-				20C47E091BE2F6DD002365F2 /* Plugins */,
-				20C47E0D1BE2F6DD002365F2 /* ReactiveCocoa */,
-				20C47E111BE2F6DD002365F2 /* ReactiveCore */,
-				20C47E141BE2F6DD002365F2 /* RxSwift */,
-			);
-			path = Moya;
-			sourceTree = "<group>";
-		};
-		20C47E091BE2F6DD002365F2 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				20C47E0A1BE2F6DD002365F2 /* CredentialsPlugin.swift */,
-				20C47E0B1BE2F6DD002365F2 /* NetworkActivityPlugin.swift */,
-				20C47E0C1BE2F6DD002365F2 /* NetworkLoggerPlugin.swift */,
-			);
-			path = Plugins;
-			sourceTree = "<group>";
-		};
-		20C47E0D1BE2F6DD002365F2 /* ReactiveCocoa */ = {
-			isa = PBXGroup;
-			children = (
-				20C47E0E1BE2F6DD002365F2 /* Moya+ReactiveCocoa.swift */,
-				20C47E0F1BE2F6DD002365F2 /* RACSignal+Moya.swift */,
-				20C47E101BE2F6DD002365F2 /* SignalProducer+Moya.swift */,
-			);
-			path = ReactiveCocoa;
-			sourceTree = "<group>";
-		};
-		20C47E111BE2F6DD002365F2 /* ReactiveCore */ = {
-			isa = PBXGroup;
-			children = (
-				20C47E121BE2F6DD002365F2 /* MoyaError.swift */,
-				20C47E131BE2F6DD002365F2 /* MoyaResponse.swift */,
-			);
-			path = ReactiveCore;
-			sourceTree = "<group>";
-		};
-		20C47E141BE2F6DD002365F2 /* RxSwift */ = {
-			isa = PBXGroup;
-			children = (
-				20C47E151BE2F6DD002365F2 /* Moya+RxSwift.swift */,
-				20C47E161BE2F6DD002365F2 /* Observable+Moya.swift */,
-			);
-			path = RxSwift;
 			sourceTree = "<group>";
 		};
 		20C47E241BE2F762002365F2 /* Alamofire */ = {
@@ -488,32 +409,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C47E211BE2F6DD002365F2 /* MoyaResponse.swift in Sources */,
-				20C47E191BE2F6DD002365F2 /* Plugin.swift in Sources */,
-				20C47E1C1BE2F6DD002365F2 /* NetworkLoggerPlugin.swift in Sources */,
-				20C47E181BE2F6DD002365F2 /* Moya.swift in Sources */,
-				20C47E1F1BE2F6DD002365F2 /* SignalProducer+Moya.swift in Sources */,
 				20C47DD71BE2F35C002365F2 /* ViewController.m in Sources */,
-				20C47E231BE2F6DD002365F2 /* Observable+Moya.swift in Sources */,
-				20C47E221BE2F6DD002365F2 /* Moya+RxSwift.swift in Sources */,
 				20C47E3C1BE2F762002365F2 /* Request.swift in Sources */,
 				20C47E401BE2F762002365F2 /* ServerTrustPolicy.swift in Sources */,
-				20C47E1E1BE2F6DD002365F2 /* RACSignal+Moya.swift in Sources */,
 				20C47E3A1BE2F762002365F2 /* MultipartFormData.swift in Sources */,
 				20C47E361BE2F762002365F2 /* Download.swift in Sources */,
 				20C47DD41BE2F35C002365F2 /* AppDelegate.m in Sources */,
 				20C47E3E1BE2F762002365F2 /* ResponseSerialization.swift in Sources */,
 				20C47E3F1BE2F762002365F2 /* Result.swift in Sources */,
-				20C47E1B1BE2F6DD002365F2 /* NetworkActivityPlugin.swift in Sources */,
 				20C47E421BE2F762002365F2 /* Upload.swift in Sources */,
-				20C47E201BE2F6DD002365F2 /* MoyaError.swift in Sources */,
-				20C47E1D1BE2F6DD002365F2 /* Moya+ReactiveCocoa.swift in Sources */,
 				20C47E3D1BE2F762002365F2 /* Response.swift in Sources */,
-				20C47E171BE2F6DD002365F2 /* Endpoint.swift in Sources */,
 				20C47E3B1BE2F762002365F2 /* ParameterEncoding.swift in Sources */,
 				20C47E351BE2F762002365F2 /* Alamofire.swift in Sources */,
 				20C47DD11BE2F35C002365F2 /* main.m in Sources */,
-				20C47E1A1BE2F6DD002365F2 /* CredentialsPlugin.swift in Sources */,
 				20C47E371BE2F762002365F2 /* Error.swift in Sources */,
 				20C47E391BE2F762002365F2 /* Manager.swift in Sources */,
 				20C47E431BE2F762002365F2 /* Validation.swift in Sources */,
