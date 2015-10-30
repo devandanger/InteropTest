@@ -22,6 +22,15 @@
 
 import Foundation
 
+
+// MARK: - Alamofire massive class
+public struct Alamofire {
+    func something() {
+        
+    }
+    
+}
+
 // MARK: - URLStringConvertible
 
 /**
